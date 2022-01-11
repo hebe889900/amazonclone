@@ -6,8 +6,8 @@ import Image from 'next/image'
 function Header() {
     return (
         <header>
-            <div className="flex items-center bg-amazon_blue">
-                <div>
+            <div className="flex items-center bg-amazon_blue p-1 flex-grow py-2">
+                <div classname="mt-2 flex items-center flex-grow sm:flex-grow-0">
                     <Image 
                         src='http://pngimg.com/uploads/amazon/amazon_PNG11.png'
                         width={150}
