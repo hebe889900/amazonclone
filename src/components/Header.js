@@ -21,10 +21,10 @@ function Header() {
                         className="cursor-pointer"
                     />
                 </div>
-                <div className="flex items-center rounded-md h-10 flex-grow cursor-pointer bg-yellow-400 hover:bg-yellow-500">
-                    <input className='p-2 h-full w-6 flex-grow flex-shrink rounted-l-md focus:outline-none px-4' type="text"/>
+                <div className="mx-2 flex items-center rounded-md h-10 flex-grow cursor-pointer bg-yellow-400 hover:bg-yellow-500">
+                    <input className='p-4 h-full w-6 flex-grow flex-shrink rounted-l-md focus:outline-none px-4' type="text"/>
                     <SearchIcon className='h-12 p-4' />
-                </div>
+                </div>               
                 <div  className="text-white flex items-center text-xs space-x-6 mx-6">
                     <div className="link">
                         <p>Hello Jack</p>
