@@ -45,22 +45,24 @@ function Header() {
                     </div>
                 </div>
             </div>
-            <div className="flex items-center space-x-3 p-2 pl-6 bg-amazon_blue-light text-white text-sm">
-                <p className="link flex items-center">
+            <div className="flex flex-nowrap overflow-x-scroll whitespace-nowrap items-center space-x-3 p-2 pl-6 bg-amazon_blue-light text-white text-sm">
+                <div className="link tems-center">
                     <MenuIcon className='h-6 mr-1' />
-                </p>
-                <p className="link">Prime Video</p>
-                <p className="link">Amazon Business</p>
-                <p className="link">Today's deal</p>
-                <p className="link hidden lg:inline-flex">Electronic</p>
-                <p className="link hidden lg:inline-flex">Food & Grocery</p>
-                <p className="link hidden lg:inline-flex">Prime</p>
-                <p className="link hidden lg:inline-flex">Buy Aagain</p>
-                <p className="link hidden lg:inline-flex">Shopper Toolkit</p>
-                <p className="link hidden lg:inline-flex">Headth & Personal Care</p>
+                </div>
+                <div className="shrink-0 inline link">Prime Video</div>
+                <div className="inline link">Amazon Business</div>
+                <div className="inline link">Today's deal</div>
+                <div className="inline link">Electronic</div>
+                <div className="inline link">Food & Grocery</div>
+                <div className="inline link">Prime</div>
+                <div className="inline link">Buy Aagain</div>
+                <div className="inline link">Shopper Toolkit</div>
+                <div className="inline link">Headth & Personal Care</div>
             </div>
         </header>
     )
 }
 
 export default Header
+
+
