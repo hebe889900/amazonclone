@@ -13,6 +13,9 @@ function Header() {
         <header>
             <div className="sm:flex-wrap md:flex items-center bg-amazon_blue p-1 flex-grow py-2">
                 <div className="mt-2 flex items-center flex-grow sm:flex-grow-0">
+                    <div className="link tems-center text-white" >
+                        <MenuIcon className='h-6 mb-4' />
+                    </div>
                     <Image 
                         src='http://pngimg.com/uploads/amazon/amazon_PNG11.png'
                         width={150}
@@ -46,9 +49,6 @@ function Header() {
                 </div>
             </div>
             <div className="flex flex-nowrap overflow-x-scroll whitespace-nowrap items-center space-x-3 p-2 pl-6 bg-amazon_blue-light text-white text-sm">
-                <div className="link tems-center">
-                    <MenuIcon className='h-6 mr-1' />
-                </div>
                 <div className="shrink-0 inline link">Prime Video</div>
                 <div className="inline link">Amazon Business</div>
                 <div className="inline link">Today's deal</div>
