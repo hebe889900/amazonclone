@@ -13,7 +13,7 @@ function Header() {
         <header>
             <div className="sm:flex-wrap md:flex items-center bg-amazon_blue p-1 flex-grow py-2">
                 <div className="mt-2 flex items-center flex-grow sm:flex-grow-0">
-                    <div className="link tems-center text-white" >
+                    <div className="flex md:hidden link tems-center text-white" >
                         <MenuIcon className='h-6 mb-4' />
                     </div>
                     <Image 
